@@ -1,0 +1,469 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.header-bg{
+    background: linear-gradient(99.45deg, #C2CBE1 8.09%, #9CA6BF 21.31%, #8992AC 28.24%, #55607D 44.47%), #5A6582 center/cover;
+    width: 100%;
+    height: 100%;
+    position:sticky;
+
+}
+
+.header{
+
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+}
+
+.container{
+    width: 1380px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-item{
+    display: flex;
+}
+
+.header-items{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 150%;
+    /* identical to box height, or 30px */
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+    margin: 0 41px;
+}
+
+
+.contact-number{
+    display: flex;
+    justify-content: center;
+    width: 190px;
+    padding: 0 20px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    /* or 214% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -1px;
+
+    color: #000000;
+    box-shadow: inset 0 0 0 0 #00F4C5;
+    transition: 0.7s;
+}
+.contact-number:hover{
+    box-shadow: inset 190px 0 0 0 #252525;
+    color: white;
+}
+
+.about{
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.about-3d{
+    display: flex;
+    align-items: center;
+}
+
+
+.about-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.about-text::before{
+    content: '';
+    background: url("../../assets/images/3d 1.png");
+    position: absolute;
+
+}
+
+.about-title{
+    margin-bottom: 25px;
+    width: 187px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 150%;
+    /* identical to box height, or 16px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #2E363E;
+    background: #EDEDED;
+    border-radius: 5px;
+    padding: 13px 35px;
+}
+
+.about-subtitle{
+    margin-top: 100px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    /* or 125% */
+
+    text-align: center;
+    letter-spacing: -1px;
+
+    /* Серый 1 */
+
+    color: #2E363E;
+    width: 800px;
+}
+
+.about-me{
+
+    margin-right: -101px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 143%;
+    /* or 34px */
+
+    text-align: center;
+
+    /* Серый 1 */
+
+    color: #2E363E;
+    width: 710px;
+}
+
+.about-3d-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-btn{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin-top: 25px;
+    padding:21px 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 152%;
+    /* identical to box height, or 27px */
+    align-items: center;
+    text-align: center;
+
+    /* Текст на кнопках / Светлый */
+
+    color: #FFFFFF;
+    background: #5A6582;
+    box-shadow: inset 3px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    transition: 1000s;
+}
+
+.about-btn:hover{
+    transition: 1000s;
+    position: relative;
+    top: 5px;
+    left: 10px;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+.services{
+    color: black;
+}
+
+
+.services-block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.services-info{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.services-title{
+    margin-bottom: 102px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 133%;
+    /* identical to box height, or 48px */
+
+    letter-spacing: 0.03em;
+
+    /* Серый 1 */
+
+    color: #2E363E;
+}
+
+.service{
+    padding: 48px 0 78px 0;
+    width: 410px;
+    border: 1.5px solid #E2EAF2;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.service-icon{
+    margin-bottom: 13px;
+}
+
+.service-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 143%;
+    /* identical to box height, or 26px */
+    /* Серый 1 */
+
+    color: #2E363E;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.service-subtitle{
+    width: 261px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    /* or 21px */
+
+    text-align: center;
+
+    /* Серый 1 */
+
+    color: #2E363E;
+}
+
+.order{
+    color: black;
+}
+
+.order-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-step{
+    width: 99px;
+    padding: 6px;
+    margin-bottom: 100px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 133%;
+    /* or 27px */
+
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+    background: #11BFAE;
+    border-radius: 5px
+}
+
+.step-number{
+    margin-left: 9px;
+    width: 31px;
+    display: inline-block;
+    border-radius: 5px;
+    background: #088C7F;
+    padding: 1px;
+}
+
+.order-info-text{
+    margin-bottom:80px;
+    width: 568px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 130%;
+    /* or 47px */
+
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.03em;
+
+    color: #253332;
+    position: relative;
+}
+
+
+
+.order-btn{
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin-top: 25px;
+    padding:21px 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 152%;
+    /* identical to box height, or 27px */
+    align-items: center;
+    text-align: center;
+
+    /* Текст на кнопках / Светлый */
+
+    color: #FFFFFF;
+    background: #088C7F;
+    box-shadow: inset 3px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.order-step-two{
+display: flex;
+    align-items: center;
+}
+
+.order-img{
+    display: flex;
+    align-items: center;
+}
+
+
+.order-build{
+    position:relative;
+}
+
+.order-build::before{
+    content: url(../../assets/images/SPACELESS.png);
+    position: absolute;
+    top: 169px;
+    left: 215px;
+}
+
+.order-man{
+    margin-left: -260px;
+    margin-bottom: 108px;
+
+}
+
+.text-step-two{
+    width: 99px;
+    padding: 6px;
+    margin-bottom: 100px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 133%;
+    /* or 27px */
+
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+    background: #11BFAE;
+    border-radius: 5px;
+    text-align: center;
+    float: right;
+}
+
+.projects-page{
+    color: black;
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+}
+
+.projects-block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-btn{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    padding: 27px 0;
+    background: #088C7F;
+    box-shadow: inset 3px 8px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 152%;
+    /* identical to box height, or 33px */
+
+
+    /* Текст на кнопках / Светлый */
+
+    color: #FFFFFF;
+}
+
+.view-more{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 152%;
+    /* or 30px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #088C7F
+}
+
+.footer{
+    margin-top: 100px ;
+    width: 100%;
+    padding: 24px 0 24px 0;
+    background: #5A6582;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-info{
+    display: flex;
+    align-items: center;
+}
+
+.adres{
+    margin: 0 33px;
+}

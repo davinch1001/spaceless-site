@@ -1,0 +1,83 @@
+.heading {
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 60px;
+    composes: activeColor from '../../App.module.css';
+}
+
+.text {
+    font-size: 22px;
+    margin-bottom: 60px;
+    composes: textColor from '../../App.module.css';
+}
+
+.button {
+    padding: 20px;
+    background: transparent;
+    border: 1px solid #00F4C5;
+    color: white;
+    border-radius: 2px;
+}
+.buttonSignUp {
+    margin-left: 10px;
+    padding: 20px;
+    background: transparent;
+    border: 1px solid #00F4C5;
+    color: white;
+    border-radius: 10px;
+}
+.button > img {
+    width: 60%;
+}
+
+@media (max-width: 1200px) {
+    .heading {
+        font-size: 50px;
+        text-transform: uppercase;
+        font-weight: 500;
+        margin-bottom: 60px;
+        composes: activeColor from '../../App.module.css';
+    }
+}
+@media (max-width: 1252px) {
+    .heading {
+        font-size: 45px;
+        text-transform: uppercase;
+        font-weight: 500;
+        margin-bottom: 60px;
+        composes: activeColor from '../../App.module.css';
+    }
+}
+
+@media (max-width: 950px) {
+    .heading {
+        font-size: 40px;
+    }
+    .text{
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 796px) {
+    .heading {
+        font-size: 30px;
+    }
+    .text{
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width: 320px) {
+    .heading{
+  font-size: 20px;
+    }
+    .text{
+        font-size: 16px;
+    }
+    .button{
+        padding: 10px;
+    }
+}

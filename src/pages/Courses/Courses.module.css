@@ -1,0 +1,125 @@
+.courses {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.slide {
+    /*position: relative;*/
+    composes: backgroundColor from '../../App.module.css';
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    font-size: 100px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 40px;
+    composes: activeColor from '../../App.module.css';
+}
+
+.heading > span {
+    padding-top: 10px;
+    display: inline-block;
+    width: 177px;
+    border-bottom: 2px solid #fff;
+}
+
+.subheading {
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    composes: textColor from '../../App.module.css';
+}
+
+.text {
+    font-size: 20px;
+    composes: textColor from '../../App.module.css';
+    position: relative;
+    padding: 100px;
+}
+
+.circle {
+    padding: 10px 0;
+    display: inline-block;
+    position: relative;
+}
+
+.button {
+    border: 2px solid #088C7F;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+}
+
+.button > img {
+    width: 60%;
+    transform: rotate(-90deg);
+}
+
+.list {
+    padding-left: 20px;
+    margin-top: 30px;
+    position: relative;
+}
+
+
+.list > li {
+    list-style: decimal;
+    margin-bottom: 20px;
+}
+
+.list > li:last-child {
+    margin-bottom: 0;
+}
+
+.block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    width: 48%;
+}
+
+.label {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.slideImg{
+    display: block;
+    width: 400px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+/*@media (width: 1410px) {*/
+/*    .courses{*/
+/*        width: 800px;*/
+/*    }*/
+/*    .slide{*/
+/*        width: 200px;*/
+/*    }*/
+/*    .menu{*/
+/*        display: none   ;*/
+/*    }*/
+/*}*/
+
+/*@media (width: 1333px) {*/
+/*    .slide{*/
+/*        width: 700px;*/
+/*    }*/
+/*}*/
+/*@media (width: 1330px) {*/
+/*    .slide{*/
+/*        width: 600px;*/
+/*    }*/
+/*}*/

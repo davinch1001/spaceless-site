@@ -1,0 +1,96 @@
+.title {
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 40px;
+    color: #00F4C5;
+}
+
+.title span{
+    padding-top: 10px;
+    display: inline-block;
+    width: 177px;
+    border-bottom: 2px solid #fff;
+}
+
+
+.mentors-info{
+    width: 300px;
+    font-size:14px;
+}
+
+.owr-mentors{
+    position: relative;
+    max-width: 300px;
+    z-index: 2;
+}
+
+.our-mentors-block{
+    z-index: 1;
+    position: relative;
+    background: transparent;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+
+.mentors-name{
+    position: absolute;
+    top: 10px;
+    left:50px;
+    display: inline-block;
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    color: #252525;
+}
+
+
+.mentors-img{
+    width:280px;
+    object-fit: cover;
+    border-radius: 10px ;
+}
+
+.mentors-name-test{
+    position: relative;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.mentors-name-test:after{
+    content: '';
+    width:50%;
+    height: 1px;
+    background: white;
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+}
+
+.mentors{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px ;
+}
+
+.text {
+    font-size: 20px;
+    composes: textColor from '../../App.module.css';
+    position: relative;
+}
+
+.m-img{
+    width: 300px;
+}
+
+.slide-block{
+    display: flex;
+}

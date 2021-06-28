@@ -1,0 +1,25 @@
+.footer {
+    height: 100px;
+    composes: backgroundColor from './../../App.module.css';
+    display: flex;
+    align-items: center;
+}
+
+.social {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.item {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.item:first-child {
+    margin-left: 0;
+}
+
+.link > img {
+    width: 36px;
+}
